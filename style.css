@@ -66,9 +66,12 @@
 }
 
 .btn #btn {
-    width: 150px;
-    height: 100px;
-    color: red;
+    position: relative;
+    left: 1900px;
+    bottom: 65px;
+    width: 100px;
+    height: 50px;
+    color: black;
 }
 
 .btn #btn:hover {
