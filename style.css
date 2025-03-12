@@ -61,3 +61,15 @@
     background-color: red;
     border: 1px solid black;
 }
+
+.btn #btn {
+    width: 150px;
+    height: 100px;
+    color: red;
+}
+
+.btn #btn:hover {
+    cursor: pointer;
+    color: black;
+    border-radius: 20px;
+}
