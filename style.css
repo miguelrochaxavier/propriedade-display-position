@@ -28,26 +28,36 @@
     gap: 30px;
 }
 
-.red {
+.inline-block > div {
+    display: inline-block;
     width: 220px;
-    height: 220px;
+    height: 210px;
     background-color: red;
     box-sizing: border-box;
     border: 1px solid black;
 }
 
-.red-two {
-    width: 200px;
-    height: 120px;
+.inline-block .red-two {
+    display: inline-block;
+    width: 190px;
+    height: 200px;
     background-color: red;
-    gap: 20px;
+    box-sizing: border-box;
     border: 1px solid black;
 }
 
-.red-three {
-    width: 210px;
-    height: 150px;
+.inline-block .red-three {
+    display: inline-block;
+    width: 390px;
+    height: 100px;
     background-color: red;
-    gap: 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.red {
+    width: 200px;
+    height: 200px;
+    background-color: red;
     border: 1px solid black;
 }
