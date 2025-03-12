@@ -1,0 +1,15 @@
+* {
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.inline-block {
+    display: inline-block;
+}
